@@ -1,0 +1,10 @@
+# SSH
+ssh -i path@pem ubuntu@publicIp
+
+#to change password
+cd /etc/ssh/
+Vim sshd_config
+Change password authentication to Yes
+Vim exit (:wq)
+
+
